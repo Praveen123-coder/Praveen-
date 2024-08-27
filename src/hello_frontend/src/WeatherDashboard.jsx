@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import './App.css';
 
 const App = () => {
   const [city, setCity] = useState('');
@@ -50,5 +50,5 @@ const App = () => {
   );
 };
 
-export default App;
+export default WeatherDashboard;
 
